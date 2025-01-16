@@ -30,7 +30,7 @@ function verificarChute() {
         if(chute > numeroSecreto){
             exibirTextoTela('p','O número secreto é menor!')
         }else{
-            exibirTextoTela('p','O númro secreto é maior!');
+            exibirTextoTela('p','O número secreto é maior!');
         }
         tentativas++;
         limparCampo();
